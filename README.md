@@ -1,5 +1,9 @@
 # biliup-rs-docker
 
+[![Publish](https://github.com/puzzlemoondev/biliup-rs-docker/actions/workflows/publish.yml/badge.svg)](https://github.com/puzzlemoondev/biliup-rs-docker/actions/workflows/publish.yml)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/puzzlemoondev/biliup-rs?sort=semver)](https://hub.docker.com/r/puzzlemoondev/biliup-rs)
+[![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/puzzlemoondev/biliup-rs?sort=semver)](https://hub.docker.com/r/puzzlemoondev/biliup-rs)
+
 biliup-rs in docker
 
 ## Usage
