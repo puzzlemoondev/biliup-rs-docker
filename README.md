@@ -1,6 +1,6 @@
 # biliup-rs-docker
 
-biliup-rs binary dockerized.
+biliup-rs in docker
 
 ## Usage
 
