@@ -4,7 +4,7 @@
 [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/puzzlemoondev/biliup-rs?sort=semver)](https://hub.docker.com/r/puzzlemoondev/biliup-rs)
 [![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/puzzlemoondev/biliup-rs?sort=semver)](https://hub.docker.com/r/puzzlemoondev/biliup-rs)
 
-biliup-rs in docker
+[biliup-rs](https://github.com/ForgQi/biliup-rs) in docker
 
 ## Usage
 
