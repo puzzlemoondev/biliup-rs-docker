@@ -10,6 +10,6 @@ COPY --from=source /source .
 RUN cargo build --release --offline --bin biliup && \
     cp target/release/biliup /biliup
 
-FROM scratch
+FROM debian:stable-slim
 COPY --from=build /biliup /
 ENTRYPOINT [ "/biliup" ]
