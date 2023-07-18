@@ -1,7 +1,9 @@
 FROM --platform=$BUILDPLATFORM rust AS source
 WORKDIR /source
-COPY biliup-rs .
-RUN mkdir .cargo && \
+ENV BILIUPRS_VERSION 0.1.17
+RUN wget https://github.com/biliup/biliup-rs/archive/refs/tags/v${BILIUPRS_VERSION}.tar.gz -O biliuprs.tar.gz && \
+    tar -xzf biliuprs.tar.gz --strip 1 && \
+    mkdir .cargo && \
     cargo vendor > .cargo/config
 
 FROM rust AS build
